@@ -1,0 +1,154 @@
+/* 🌸 Cake Bliss Theme */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+.cakebliss-header {
+    background:linear-gradient(to bottom, #fff7f9, #ffe9f0);
+    color: #333;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* 🌸 Pink Accent Buttons */
+.btn-pink {
+    background: linear-gradient(90deg, #ff5fa2, #d63384);
+    border: none;
+    color: #fff !important;
+    padding: 0.6rem 1.2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    box-shadow: 0 6px 20px rgba(214, 51, 132, 0.18);
+    transition: all 0.3s ease;
+}
+
+.btn-pink:hover {
+    background: linear-gradient(90deg, #ff2a94, #c12276);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(214, 51, 132, 0.25);
+}
+
+.btn-pink:focus,
+.btn-pink:active {
+    color: #fff !important;
+    background: linear-gradient(90deg, #ff2a94, #c12276);
+    outline: none;
+}
+
+/* 🌸 Outline Pink Button (for “Back to Cakes”) */
+.btn-outline-pink {
+    background-color: transparent;
+    color: #ff4da6 !important;
+    border: 2px solid #ff4da6;
+    border-radius: 12px;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-pink:hover {
+    background-color: #ff4da6;
+    color: #fff !important;
+    box-shadow: 0 4px 10px rgba(255, 77, 166, 0.3);
+}
+
+/* 🌸 Cards */
+.card .card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(255, 95, 162, 0.1);
+}
+
+/* 🌸 Hero Section */
+.hero-section {
+    padding: 60px 0;
+}
+
+/* 🌸 Footer */
+.cakebliss-footer {
+    background: linear-gradient(to bottom, #fff7f9, #ffe9f0);
+    color: #333;
+    font-size: 15px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.footer-logo img {
+    filter: drop-shadow(0 3px 4px rgba(0,0,0,0.1));
+}
+
+.footer-info p {
+    margin: 4px 0;
+}
+
+/* 🌸 Social Buttons */
+.footer-social .btn-social {
+    background-color: #ff5fa2;
+    color: #fff;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4px;
+    transition: 0.3s;
+}
+
+.footer-social .btn-social:hover {
+    background-color: #e24c8f;
+    transform: scale(1.1);
+}
+
+/* 🌸 Text Color Helper */
+.text-pink {
+    color: #ff5fa2 !important;
+}
+
+/* 🌸 Checkout Card */
+.checkout-card {
+    border-radius: 16px;
+    background: #fff7f9;
+    box-shadow: 0 6px 20px rgba(255, 95, 162, 0.15);
+    padding: 25px;
+}
+
+/* 🌸 Category Navigation Pills */
+.nav-pills .nav-link {
+    color: #ff4da6 !important;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Active tab — filled pink */
+.nav-pills .nav-link.active {
+    background-color: #ff4da6 !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 8px rgba(255, 77, 166, 0.3);
+}
+
+/* Hover effect — lighter pink */
+.nav-pills .nav-link:hover {
+    color: #ffffff !important;
+    background-color: #ff80c0 !important;
+}
+
+/* Focus (keyboard nav) */
+.nav-pills .nav-link:focus {
+    color: #ffffff !important;
+    background-color: #ff4da6 !important;
+}

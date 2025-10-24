@@ -1,0 +1,50 @@
+/* ================================
+   🍰 CAKES PAGE STYLING - Cake Bliss
+   ================================ */
+
+/* Pink text and hover for cake nav links */
+.nav-pills .nav-link {
+    color: #ff4da6 !important;              /* default pink text */
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Active (selected) category */
+.nav-pills .nav-link.active {
+    background-color: #ff4da6 !important;  /* pink background */
+    color: #fff !important;                /* white text */
+    box-shadow: 0 4px 10px rgba(255, 77, 166, 0.3);
+}
+
+/* Hover effect for nav links */
+.nav-pills .nav-link:hover {
+    background-color: #ff80c0 !important;  /* lighter pink */
+    color: #fff !important;
+}
+
+/* Search bar styling */
+form.d-flex .form-control {
+    border-radius: 10px;
+    border: 2px solid #ff4da6;
+    transition: 0.3s ease;
+}
+
+form.d-flex .form-control:focus {
+    box-shadow: 0 0 5px #ff4da6;
+    border-color: #ff4da6;
+}
+
+/* Search button styling */
+.btn-pink {
+    background-color: #ff4da6;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.btn-pink:hover {
+    background-color: #ff80c0;
+    color: #fff;
+}

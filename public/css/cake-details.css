@@ -1,0 +1,76 @@
+/* ========== Cake Details Page Styles ========== */
+
+.cake-details-page {
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.cake-image {
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.text-pink {
+    color: #ff4da6 !important;
+}
+
+/* Buttons */
+.btn-pink {
+    background-color: #ff4da6;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-pink:hover {
+    background-color: #ff2b8a;
+    color: white;
+}
+
+.btn-outline-pink {
+    border: 2px solid #ff4da6;
+    color: #ff4da6;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-pink:hover {
+    background-color: #ff4da6;
+    color: white;
+}
+
+/* Inputs and selects */
+.form-control, .form-select {
+    border-radius: 0.5rem;
+}
+/* ===== Pink Button Styles ===== */
+.btn-pink {
+    background-color: #ff4da6;
+    color: white !important;   /* ✅ Ensures white text */
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-pink:hover {
+    background-color: #ff2b8a;
+    color: white !important;
+}
+
+/* ===== Outline Pink Button (used elsewhere if needed) ===== */
+.btn-outline-pink {
+    border: 2px solid #ff4da6;
+    color: #ff4da6 !important;
+    background: transparent;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-pink:hover {
+    background-color: #ff4da6;
+    color: white !important;
+}
+
+/* Smooth fade an*
